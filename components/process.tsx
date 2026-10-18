@@ -42,7 +42,7 @@ export function Process() {
           </h2>
           <div className="blob relative aspect-[4/3] overflow-hidden border-[1.5px] border-primary-foreground">
             <Image
-              src="/images/agv-acr.png"
+              src="/Vicman/images/agv-acr.png"
               alt="Bosque de neblina con cafetales bajo sombra y un riachuelo cristalino en La Convención, Cusco"
               fill
               sizes="(min-width: 1024px) 40vw, 100vw"

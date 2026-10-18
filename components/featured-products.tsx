@@ -22,7 +22,7 @@ export function FeaturedProducts() {
             Catálogo y trazabilidad
           </h2>
           <Image
-            src="/images/bean.png"
+            src="/Vicman/images/bean.png"
             alt=""
             width={120}
             height={120}

@@ -112,7 +112,7 @@ export function CartDrawer() {
                 <li key={item.key} className="flex gap-4 border-b border-foreground/20 py-5">
                   <div className="relative size-20 shrink-0 overflow-hidden rounded-full border border-foreground bg-background">
                     <Image
-                      src={item.product.image || '/placeholder.svg'}
+                      src={item.product.image || '/Vicman/placeholder.svg'}
                       alt=""
                       fill
                       sizes="80px"

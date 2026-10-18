@@ -61,7 +61,7 @@ export const products: Product[] = [
     slogan: 'Agrovicman, donde el café se convierte en arte.',
     description:
       'Cada sorbo conecta con la esencia del campo y el esfuerzo de nuestros agricultores comprometidos con la excelencia.',
-    image: '/images/agv-cafe-especial.png',
+    image: '/Vicman/images/agv-cafe-especial.png',
     badge: 'Línea Reserva ACR',
     attributes: ['+1,750 m.s.n.m.', 'Puntaje SCA 85+', 'Geisha y Bourbon'],
     variants: [
@@ -88,7 +88,7 @@ export const products: Product[] = [
     slogan: 'Agrovicman, donde la altura no limita la calidad, sino que la define.',
     description:
       'Con notas a nuez, cacao y sutiles toques frutales, se distingue por su aroma envolvente, acidez moderada y un cuerpo medio que permanece en el paladar con elegancia.',
-    image: '/images/agv-cafe-tueste.png',
+    image: '/Vicman/images/agv-cafe-tueste.png',
     badge: 'Blend Típica & Catimor',
     attributes: ['Nuez · Cacao · Frutal', 'Acidez moderada', 'Cuerpo medio'],
     variants: [
@@ -114,7 +114,7 @@ export const products: Product[] = [
     slogan: 'Agrovicman, el poder del cacao en su estado más natural.',
     description:
       'Ideal para chocolates artesanales, repostería fina, bebidas energéticas o la taza tradicional de chocolate.',
-    image: '/images/agv-cacao-400.png',
+    image: '/Vicman/images/agv-cacao-400.png',
     badge: '100% Cacao',
     attributes: ['Granos de La Convención', 'Sin aditivos', 'Sin azúcar añadida'],
     variants: [{ label: '400 g', price: 35 }],
@@ -135,7 +135,7 @@ export const products: Product[] = [
     slogan: 'Formato personal, la esencia del verdadero cacao.',
     description:
       'Descubre la esencia del verdadero cacao en presentación práctica, cuidando cada paso desde la cosecha hasta la molienda.',
-    image: '/images/agv-cacao-100.png',
+    image: '/Vicman/images/agv-cacao-100.png',
     badge: 'Formato personal',
     attributes: ['100% Cacao', 'Ideal para taza', 'Práctico de llevar'],
     variants: [{ label: '100 g', price: 12 }],
@@ -156,7 +156,7 @@ export const products: Product[] = [
     slogan: 'Dulzura silvestre de nuestros bosques.',
     description:
       'Miel 100% pura multifloral, recolectada de forma sostenible en los bosques biodiversos de nuestra región.',
-    image: '/images/agv-miel.png',
+    image: '/Vicman/images/agv-miel.png',
     badge: 'Multifloral',
     attributes: ['100% pura', 'Recolección sostenible', 'Bosque de neblina'],
     variants: [

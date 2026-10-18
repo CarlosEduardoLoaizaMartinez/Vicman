@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Archivo_Narrow, Inter_Tight } from 'next/font/google'
 import { CartProvider } from '@/components/cart-context'
@@ -24,19 +23,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/Vicman/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/Vicman/icon-dark-32x32.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/Vicman/icon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/Vicman/apple-icon.png',
   },
 }
 
@@ -54,7 +53,6 @@ export default function RootLayout({
     <html lang="es" className={`${archivoNarrow.variable} ${interTight.variable} bg-background`}>
       <body className="antialiased">
         <CartProvider>{children}</CartProvider>
-        {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
   )

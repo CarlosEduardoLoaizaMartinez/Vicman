@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative overflow-hidden border-b border-foreground" aria-labelledby="hero-title">
       <div className="relative min-h-[680px] md:min-h-[760px]">
         <Image
-          src="/images/agv-hero.png"
+          src="/Vicman/images/agv-hero.png"
           alt="Café VICMAN, pasta pura de cacao y miel de abeja sobre una mesa de madera frente a los cafetales de neblina de Quillabamba"
           fill
           priority

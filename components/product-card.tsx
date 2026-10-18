@@ -64,7 +64,7 @@ export function ProductCard({ product }: { product: Product }) {
       <div className="relative w-full">
         <div className="blob relative aspect-square w-full overflow-hidden border-[1.5px] border-foreground bg-background">
           <Image
-            src={product.image || '/placeholder.svg'}
+            src={product.image || '/Vicman/placeholder.svg'}
             alt={`${product.name} AgroVicman`}
             fill
             sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 85vw"

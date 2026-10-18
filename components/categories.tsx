@@ -11,19 +11,19 @@ const categories: { id: Category; title: string; text: string; image: string }[]
     id: 'cafe',
     title: 'Café de Especialidad',
     text: 'Geisha, Bourbon y blend Típica & Catimor. En grano o molido a tu medida.',
-    image: '/images/agv-cafe-especial.png',
+    image: '/Vicman/images/agv-cafe-especial.png',
   },
   {
     id: 'cacao',
     title: 'Cacao y Derivados',
     text: 'Pasta pura 100% cacao de La Convención. Sin azúcar, sin aditivos.',
-    image: '/images/agv-cacao-400.png',
+    image: '/Vicman/images/agv-cacao-400.png',
   },
   {
     id: 'miel',
     title: 'Miel de Abeja',
     text: 'Multifloral y silvestre, recolectada de forma sostenible en el bosque.',
-    image: '/images/agv-miel.png',
+    image: '/Vicman/images/agv-miel.png',
   },
 ]
 
@@ -53,7 +53,7 @@ export function Categories() {
                 >
                   <div className="relative aspect-[3/4] w-full overflow-hidden rounded-t-full border-[1.5px] border-foreground bg-secondary">
                     <Image
-                      src={category.image || '/placeholder.svg'}
+                      src={category.image || '/Vicman/placeholder.svg'}
                       alt={category.title}
                       fill
                       sizes="(min-width: 768px) 30vw, 90vw"

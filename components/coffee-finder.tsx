@@ -155,7 +155,7 @@ export function CoffeeFinder() {
           >
             <div className="flex items-center gap-5 border-b border-foreground bg-secondary p-5">
               <div className="blob relative size-28 shrink-0 overflow-hidden border border-foreground">
-                <Image src={product.image || '/placeholder.svg'} alt="" fill sizes="112px" className="object-cover" />
+                <Image src={product.image || '/Vicman/placeholder.svg'} alt="" fill sizes="112px" className="object-cover" />
               </div>
               <div className="flex flex-col gap-1">
                 <p className="text-sm uppercase tracking-widest text-muted-foreground">Tu match ideal</p>

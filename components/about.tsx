@@ -20,7 +20,7 @@ export function About() {
           <div className="relative">
             <div className="blob relative aspect-square overflow-hidden border-[1.5px] border-foreground">
               <Image
-                src="/images/agv-familia.png"
+                src="/Vicman/images/agv-familia.png"
                 alt="Manos de un agricultor cosechando cerezas maduras de café en Quillabamba"
                 fill
                 sizes="(min-width: 1024px) 45vw, 100vw"
