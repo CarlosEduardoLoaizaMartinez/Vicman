@@ -1,0 +1,5 @@
+:HL["/Vicman/_next/static/chunks/3it3qy7ejmb8s.css","style"]
+:HL["/Vicman/_next/static/media/ab57efd000576a30-s.p.3fofz6dws3mg0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Vicman/_next/static/media/f595ef078a6ec598-s.p.29kh463pnessh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"CwHnKeVIt839MGQaUz5qS","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
